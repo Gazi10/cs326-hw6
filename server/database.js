@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 /** A class representing a database to store scores */
 class Database {
   constructor() {
-    const uri = "mongodb+srv://gazi:cs326@cluster0.jydbllq.mongodb.net/?retryWrites=true&w=majority";
+    const uri = "USE YOUR MONGODB URL"; //Change this
 
     mongoose.connect(uri, {
       useNewUrlParser: true,
